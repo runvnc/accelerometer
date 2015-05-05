@@ -9,4 +9,5 @@ function onError() {
     alert('onError!');
 };
 
+
 navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
